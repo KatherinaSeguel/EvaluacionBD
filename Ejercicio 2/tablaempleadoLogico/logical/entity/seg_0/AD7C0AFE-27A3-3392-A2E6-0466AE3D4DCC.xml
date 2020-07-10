@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD7C0AFE-27A3-3392-A2E6-0466AE3D4DCC" name="Empleado">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 04:00:10 UTC</createdTime>
+<generatorID>3D6716F4-5B58-2652-08BF-E9D9047BA7EC</generatorID>
+<ownerDesignName>tablaempleadoLogico</ownerDesignName>
+<engineerTo>
+<item key="51A9CE21-4C17-C4F8-B9BC-0CA47C65E593" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdEmpleado" id="E7A22C8C-CE56-17D8-EB64-C65D5D3283AE">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 04:00:10 UTC</createdTime>
+<generatorID>689CFBF7-B6A4-63A8-F6DF-AD01D2D9940B</generatorID>
+<ownerDesignName>tablaempleadoLogico</ownerDesignName>
+<engineerTo>
+<item key="51A9CE21-4C17-C4F8-B9BC-0CA47C65E593" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="2EE9E3FD-C68B-06E5-67F1-61E95C168C63">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 04:00:10 UTC</createdTime>
+<generatorID>668A244F-5D79-ACB7-0519-EE23A32FFD52</generatorID>
+<ownerDesignName>tablaempleadoLogico</ownerDesignName>
+<engineerTo>
+<item key="51A9CE21-4C17-C4F8-B9BC-0CA47C65E593" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="81CCDB1F-64C3-5E30-B9BD-8822979489E6">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 04:00:10 UTC</createdTime>
+<generatorID>AC11CF90-7FA9-89AD-7586-066686F8D91C</generatorID>
+<ownerDesignName>tablaempleadoLogico</ownerDesignName>
+<engineerTo>
+<item key="51A9CE21-4C17-C4F8-B9BC-0CA47C65E593" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="72EB50C5-79C2-E96A-47F2-21A052BD69F3">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 04:00:10 UTC</createdTime>
+<generatorID>0D161072-1F7D-0C88-A8E3-456C911A4B32</generatorID>
+<ownerDesignName>tablaempleadoLogico</ownerDesignName>
+<engineerTo>
+<item key="51A9CE21-4C17-C4F8-B9BC-0CA47C65E593" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="D885A9EC-8AEF-979A-3BE8-8D74C31E23F6">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 04:00:10 UTC</createdTime>
+<generatorID>E5C1CDF2-2A98-71F7-78FE-32E7628A357E</generatorID>
+<ownerDesignName>tablaempleadoLogico</ownerDesignName>
+<engineerTo>
+<item key="51A9CE21-4C17-C4F8-B9BC-0CA47C65E593" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idDepartamento" id="2E70DF3A-D826-7B98-DD8A-4A75B69F94FF">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 04:00:10 UTC</createdTime>
+<generatorID>0DBFA130-0143-0EB6-7038-D5C3721D4178</generatorID>
+<ownerDesignName>tablaempleadoLogico</ownerDesignName>
+<engineerTo>
+<item key="51A9CE21-4C17-C4F8-B9BC-0CA47C65E593" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED0B41BF-A5CA-CA7A-1A35-24A3F5D638D4" name="Empleado PK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 04:00:10 UTC</createdTime>
+<generatorID>59440C33-D808-7F2B-899D-E6D17281A409</generatorID>
+<ownerDesignName>tablaempleadoLogico</ownerDesignName>
+<engineerTo>
+<item key="51A9CE21-4C17-C4F8-B9BC-0CA47C65E593" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E7A22C8C-CE56-17D8-EB64-C65D5D3283AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

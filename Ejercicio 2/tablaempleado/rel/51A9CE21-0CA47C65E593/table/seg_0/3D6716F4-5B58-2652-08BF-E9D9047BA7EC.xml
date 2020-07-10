@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D6716F4-5B58-2652-08BF-E9D9047BA7EC" name="Empleado">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 03:56:21 UTC</createdTime>
+<ownerDesignName>tablaempleado</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdEmpleado" id="689CFBF7-B6A4-63A8-F6DF-AD01D2D9940B">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 03:57:08 UTC</createdTime>
+<ownerDesignName>tablaempleado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="668A244F-5D79-ACB7-0519-EE23A32FFD52">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 03:57:32 UTC</createdTime>
+<ownerDesignName>tablaempleado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="AC11CF90-7FA9-89AD-7586-066686F8D91C">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 03:57:50 UTC</createdTime>
+<ownerDesignName>tablaempleado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="0D161072-1F7D-0C88-A8E3-456C911A4B32">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 03:58:15 UTC</createdTime>
+<ownerDesignName>tablaempleado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="E5C1CDF2-2A98-71F7-78FE-32E7628A357E">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 03:58:41 UTC</createdTime>
+<ownerDesignName>tablaempleado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idDepartamento" id="0DBFA130-0143-0EB6-7038-D5C3721D4178">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 03:59:07 UTC</createdTime>
+<ownerDesignName>tablaempleado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59440C33-D808-7F2B-899D-E6D17281A409" name="Empleado_PK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 03:57:08 UTC</createdTime>
+<ownerDesignName>tablaempleado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="689CFBF7-B6A4-63A8-F6DF-AD01D2D9940B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
