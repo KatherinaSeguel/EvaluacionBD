@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7F3968A-1CA8-82FC-6232-CA4DF69EC435" name="prestacion_servicio">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:07:35 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<engineerTo>
+<item key="6AD81056-3F29-9D08-FE00-080B74024147" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPrestacionServicio" id="C3496B57-A83B-E256-C691-FDA8922D9B34">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:08:10 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<engineerTo>
+<item key="6AD81056-3F29-9D08-FE00-080B74024147" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idServicio" id="7DB3867A-596E-A666-BF17-4F09CD494E7C">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:16:19 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<engineerTo>
+<item key="6AD81056-3F29-9D08-FE00-080B74024147" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEmpleado" id="58474C20-8982-AD78-A983-E221A5DEB344">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:16:52 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<engineerTo>
+<item key="6AD81056-3F29-9D08-FE00-080B74024147" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idVehiculo" id="EEBE2C01-C679-6F55-7DFE-207ABCA14DB6">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:17:16 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<engineerTo>
+<item key="6AD81056-3F29-9D08-FE00-080B74024147" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="9CF1EA35-8B10-4263-DD15-C71597701CE4">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:08:43 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<engineerTo>
+<item key="6AD81056-3F29-9D08-FE00-080B74024147" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03D0786C-C07A-9253-5AC2-2A1596904634" name="prestacion_servicio PK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:08:37 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6AD81056-3F29-9D08-FE00-080B74024147" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3496B57-A83B-E256-C691-FDA8922D9B34</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

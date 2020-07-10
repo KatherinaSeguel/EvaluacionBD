@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85758DF9-F9C6-24D5-5529-17F8C98121C0" name="prestservicio">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 02:24:35 UTC</createdTime>
+<generatorID>A7F3968A-1CA8-82FC-6232-CA4DF69EC435</generatorID>
+<ownerDesignName>ModeloLogicoEvaluacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPrestServicio" id="946B5DA0-004B-C66D-B830-9B37AB0B463B">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 02:24:35 UTC</createdTime>
+<generatorID>C3496B57-A83B-E256-C691-FDA8922D9B34</generatorID>
+<ownerDesignName>ModeloLogicoEvaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idServicio" id="CBE32797-B864-8C20-D245-6EAEF9AFDD1D">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 02:24:35 UTC</createdTime>
+<generatorID>7DB3867A-596E-A666-BF17-4F09CD494E7C</generatorID>
+<ownerDesignName>ModeloLogicoEvaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idEmpleado" id="500494C2-6BA1-DB42-230C-11496169AD82">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 02:24:35 UTC</createdTime>
+<generatorID>58474C20-8982-AD78-A983-E221A5DEB344</generatorID>
+<ownerDesignName>ModeloLogicoEvaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idVehiculo" id="98248E79-1422-F9BE-FE2C-EC8A9A272E24">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 02:24:35 UTC</createdTime>
+<generatorID>EEBE2C01-C679-6F55-7DFE-207ABCA14DB6</generatorID>
+<ownerDesignName>ModeloLogicoEvaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="5600CF13-FDB9-5CF0-78CB-8AFE8B0AC896">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 02:24:35 UTC</createdTime>
+<generatorID>9CF1EA35-8B10-4263-DD15-C71597701CE4</generatorID>
+<ownerDesignName>ModeloLogicoEvaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F1195BE-4EDA-84A0-40C3-1186E62A8523" name="prestservicio_PK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 02:24:35 UTC</createdTime>
+<generatorID>03D0786C-C07A-9253-5AC2-2A1596904634</generatorID>
+<ownerDesignName>ModeloLogicoEvaluacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="946B5DA0-004B-C66D-B830-9B37AB0B463B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

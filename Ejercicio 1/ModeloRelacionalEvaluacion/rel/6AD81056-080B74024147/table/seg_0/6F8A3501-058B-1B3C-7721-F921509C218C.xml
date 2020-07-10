@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F8A3501-058B-1B3C-7721-F921509C218C" name="vehiPresta">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:19:40 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vehiculo_idVehiculo" id="220A927D-B0FF-62CB-E00C-15A64ED6B6B8">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:19:40 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10CC177A-670E-AC39-554C-5D7A0C5F57BC" referredColumn="9401C6D7-28D7-ABED-7E04-B0B35B1457D1"/>
+</associations>
+</Column>
+<Column name="prestacion_servicio_idPrestacionServicio" id="671C51B7-FF8E-59A7-E8F3-BDBC39BB1CE1">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:19:40 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51B3A761-9268-4BAC-ADD2-EB2A7494188E" referredColumn="1E90AC1B-D273-0274-BB3F-FC5DDFD3AC49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B9EEEF1-8BEB-CD89-7012-2024CC26E72A" name="vehiPresta_PK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:19:40 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="220A927D-B0FF-62CB-E00C-15A64ED6B6B8"/>
+<colUsage columnID="671C51B7-FF8E-59A7-E8F3-BDBC39BB1CE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE74448D-237D-F24B-1F4E-963A4BFD9F09" name="vehiPresta_vehiculo_FK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:19:40 UTC</createdTime>
+<generatorID>229B9137-A0EF-1418-A0E4-3F797A54A14B</generatorID>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="220A927D-B0FF-62CB-E00C-15A64ED6B6B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="376ADA26-629F-70C6-5622-517FEB2F6C61" name="vehiPresta_prestacion_servicio_FK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:19:40 UTC</createdTime>
+<generatorID>229B9137-A0EF-1418-A0E4-3F797A54A14B</generatorID>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="671C51B7-FF8E-59A7-E8F3-BDBC39BB1CE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

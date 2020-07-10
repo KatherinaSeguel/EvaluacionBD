@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vehpre" directorySegmentName="seg_0" id="F79512F5-6936-BE9B-8D57-22684517BC25">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 02:23:54 UTC</createdTime>
+<ownerDesignName>ModeloLogicoEvaluacion</ownerDesignName>
+<engineerTo>
+<item key="6AD81056-3F29-9D08-FE00-080B74024147" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>veh</nameOnSource>
+<nameOnTarget>pre</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>20F0A76E-1E99-881D-D7F0-FBED0CD39C4D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A7F3968A-1CA8-82FC-6232-CA4DF69EC435</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

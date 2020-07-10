@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="427145B1-625A-AFF1-92B5-057BD856DE60" name="servicio">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:19:40 UTC</createdTime>
+<generatorID>B6FDEBF4-5E24-7392-CF66-A6F24582AEBD</generatorID>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Servicio" id="087A9873-29FF-A3E1-3843-8F93753EA464">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:19:40 UTC</createdTime>
+<generatorID>42079EDE-0BAC-BE62-3D50-745F6DC25340</generatorID>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreServicio" id="98C626F9-FD6D-EF31-AFD4-AD112B402282">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:19:40 UTC</createdTime>
+<generatorID>16CC4627-DB78-87D4-7014-CDAAFF5C919B</generatorID>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorServicio" id="7E6336E9-8B3F-647F-425B-E2C58215A14C">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:19:40 UTC</createdTime>
+<generatorID>D1D35AE5-1D99-E757-8817-3771CD03CBE5</generatorID>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F78BCD7-8842-4CE7-6C67-BBC18C920270" name="servicio_PK">
+<createdBy>Katherina</createdBy>
+<createdTime>2020-07-09 01:19:40 UTC</createdTime>
+<generatorID>594D3262-88A3-2D0B-FD3C-5D461AE04921</generatorID>
+<ownerDesignName>ModeloRelacionalEvaluacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="087A9873-29FF-A3E1-3843-8F93753EA464"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
